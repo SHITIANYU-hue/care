@@ -1,0 +1,3 @@
+dataset,planner_calls,eligible_challenger_policies,certified_interventions,immediate_improvements,mean_active_policies,six_expert_final_best,six_expert_final_ci_low,six_expert_final_ci_high,six_expert_auc,six_expert_auc_ci_low,six_expert_auc_ci_high,six_expert_regret
+Minerva/Olympus,300,197,52,21,6.5,76.9,73.0,80.4,69.0,64.7,73.3,12.3
+ChemLex,300,225,36,9,7.0,81.9,76.0,87.5,75.2,68.4,81.5,18.1

@@ -1,0 +1,14 @@
+{
+  "run_id": "minerva_public_replay_check",
+  "dataset_name": "Minerva/Olympus Suzuki Coupling (i)",
+  "decision_policy_name": "public_replay_check",
+  "output_dir": "results/minerva_public_replay_check",
+  "mode": "fake",
+  "seed": 0,
+  "max_rounds": 3,
+  "initial_observed_count": 5,
+  "target_column": "yield",
+  "objective_direction": "maximize",
+  "repair_attempts": 1,
+  "allow_synthetic_fallback": false
+}

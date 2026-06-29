@@ -1,0 +1,6 @@
+variant,minerva_final_drop,minerva_auc_drop,chemlex_final_drop,chemlex_auc_drop
+w/o scheduler,1.3,2.4,4.7,2.9
+w/o public-evidence intervention gate,1.2,1.7,4.6,2.3
+w/o trajectory-recovery challenger,0.9,1.6,6.9,3.1
+w/o schema-conditioned public-feature exploration,10.4,11.7,3.5,2.4
+6-expert public incumbent,11.6,15.4,10.2,6.4

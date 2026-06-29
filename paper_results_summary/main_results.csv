@@ -1,0 +1,15 @@
+dataset,policy,final_best_mean,final_best_ci_low,final_best_ci_high,auc_mean,auc_ci_low,auc_ci_high,regret_mean
+Minerva/Olympus,CARE,88.5,88.0,89.0,84.4,83.2,85.3,0.7
+Minerva/Olympus,Public incumbent,80.0,76.4,83.4,73.4,69.3,77.3,9.2
+Minerva/Olympus,TPE-style BO,77.6,74.5,80.6,68.3,65.0,71.5,11.6
+Minerva/Olympus,LMABO-style LLM-BO,76.6,73.0,79.6,66.5,62.1,70.6,12.6
+Minerva/Olympus,BayBE/BoFire-style mixed BO,75.3,72.0,78.0,67.7,64.2,70.9,14.0
+Minerva/Olympus,Ungated LLM-evolving policy,68.8,63.1,73.9,61.4,55.6,67.0,20.4
+Minerva/Olympus,Non-evolving LLM policy,63.3,57.5,68.8,58.8,53.1,64.4,25.9
+ChemLex,CARE,92.1,88.4,95.3,81.6,76.7,86.2,7.9
+ChemLex,Public incumbent,83.9,77.1,89.9,77.2,70.4,83.4,16.1
+ChemLex,Gryffin-style categorical BO,89.8,85.3,93.5,77.2,70.3,83.6,10.2
+ChemLex,EDBO-style descriptor GP-EI,88.9,86.3,91.3,80.5,74.9,85.2,11.1
+ChemLex,LMABO-style LLM-BO,79.0,70.9,85.5,73.3,65.0,80.6,21.0
+ChemLex,Ungated LLM-evolving policy,81.2,73.9,87.4,71.2,63.2,78.7,18.8
+ChemLex,Non-evolving LLM policy,81.4,73.0,88.3,76.1,68.1,83.2,18.6

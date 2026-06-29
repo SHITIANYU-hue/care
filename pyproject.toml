@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "care-hte-replay"
+version = "0.1.0"
+description = "CARE finite-pool HTE replay code for public-evidence-gated self-evolving optimization."
+requires-python = ">=3.10"
+dependencies = [
+  "pandas",
+  "numpy",
+  "scikit-learn",
+  "scipy",
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.setuptools.packages.find]
+include = [
+  "research_tool_agent_full_pool*",
+  "replay_core*",
+  "datasets*",
+  "evaluation*",
+]

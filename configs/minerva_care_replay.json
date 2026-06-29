@@ -1,0 +1,21 @@
+{
+  "run_id": "minerva_care_replay",
+  "dataset_name": "Minerva/Olympus Suzuki Coupling (i)",
+  "decision_policy_name": "care_public_evidence_gated_policy",
+  "output_dir": "results/minerva_care_replay",
+  "mode": "api",
+  "seed": 0,
+  "max_rounds": 10,
+  "initial_observed_count": 5,
+  "target_column": "yield",
+  "objective_direction": "maximize",
+  "repair_attempts": 1,
+  "model": "gpt-5.4",
+  "reasoning_effort": "medium",
+  "max_tokens": 6000,
+  "timeout": 360.0,
+  "allow_synthetic_fallback": false,
+  "api_mode": "responses",
+  "stream": false,
+  "response_verbosity": "low"
+}
